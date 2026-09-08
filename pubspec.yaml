@@ -1,0 +1,30 @@
+name: myapp
+description: "MyApp — capstone Flutter application."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+# go_router 18.x and camera 0.12.1 both require Flutter 3.44 / Dart 3.12 or newer.
+# Run `flutter --version` and make sure your Dart version is >= 3.12.
+# If it is not, use pubspec.dart39.yaml instead.
+environment:
+  sdk: ^3.12.0
+  flutter: '>=3.44.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.12.1
+  cupertino_icons: ^1.0.9
+  go_router: ^18.0.1
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  http: ^1.2.1
+  flutter_secure_storage: ^9.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
